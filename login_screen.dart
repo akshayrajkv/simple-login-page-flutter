@@ -16,7 +16,7 @@ const String pass = '1236';
 
 class _LoginPageState extends State<LoginPage> {
   bool isPasswordVisible = false;
-  final String emailError = 'your entered wrong email';
+  final String emailError = 'Your entered wrong email';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
