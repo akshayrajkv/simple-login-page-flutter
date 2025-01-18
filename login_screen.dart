@@ -11,7 +11,7 @@ class LoginPage extends StatefulWidget {
 
 final emailController = TextEditingController();
 final passController = TextEditingController();
-const String email = 'admin@123';
+const String email = 'admin@1236';
 const String pass = '1236';
 
 class _LoginPageState extends State<LoginPage> {
