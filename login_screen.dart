@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_learn22/screens/next_screen.dart';
 
-
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
-
   @override
   State<LoginPage> createState() => _LoginPageState();
 }
@@ -36,7 +34,6 @@ class _LoginPageState extends State<LoginPage> {
             const SizedBox(
               height: 130,
             ),
-            
             const SizedBox(
                 child: Center(
               child: Text(
@@ -59,9 +56,7 @@ class _LoginPageState extends State<LoginPage> {
               style:const TextStyle(color: Colors.white,
               ),
               controller: passController,
-              
               decoration: InputDecoration(
-                
                 hintText: 'Enter your password',
                 hintStyle: const TextStyle(color: Colors.white),
                 prefixIcon: const Icon(
@@ -74,9 +69,8 @@ class _LoginPageState extends State<LoginPage> {
                       isPasswordVisible=!isPasswordVisible;
                     });
                   },
-                  icon: isPasswordVisible?const Icon(Icons.visibility_off,color: Colors.white,):const Icon(Icons.visibility,color: Colors.white,),
-                  
-                  
+                  icon: isPasswordVisible?const Icon(Icons.visibility_off,color: Colors.white,):const
+                  Icon(Icons.visibility,color: Colors.white,),
                 ),
               ),
             ),
